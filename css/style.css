@@ -1,0 +1,150 @@
+* {
+    margin-top: 0;
+    margin-bottom: 0;
+}
+
+.logo {
+    display: inline-flex;
+    margin-top: 23px;
+    font-family: 'math';
+}
+
+.logo p {
+    font-size: 35px;
+}
+
+.span1 {
+    color: rgb(237, 51, 51);
+    font-size: 35px;
+}
+
+.nav-links {
+    display: inline-flex;
+    float: right;
+    color: black;
+    font-size: 1.8rem;
+}
+
+.nav-links li {
+    list-style: none;
+    margin-right: 30px;
+    margin-top: 29px;
+}
+
+.nav-links li a {
+    text-decoration: none;
+}
+
+hr {
+    margin-top: 15px;
+}
+
+.nav-links li a:hover {
+    color: purple;
+    text-decoration: underline;
+    border: 2px solid purple;
+    border-radius: 5px;
+}
+
+.container {
+    background-image: url(/images/bg.jfif);
+    background-size: auto;
+    text-align: center;
+    text-justify: center;
+    line-height: 1.5;
+    /* background-attachment: fixed; */
+}
+
+.para1 {
+    font-size: 5rem;
+    /* margin-top: 7%; */
+    color: white;
+    padding-top: 85px;
+}
+
+.para2 {
+    font-family: math;
+    font-size: 7rem;
+    color: rgb(178, 21, 21);
+    opacity: 100%;
+}
+
+.btn {
+    font-size: 2rem;
+    ;
+    width: max-content;
+    /* background-color: rgb(237, 51, 51); */
+    height: 7vh;
+    width: 7vw;
+}
+
+.btn:hover {
+    height: 7.3vh;
+    width: 7.3vw;
+    text-decoration: none;
+}
+
+.layer {
+    background-color: black;
+    height: 87.5vh;
+    opacity: 50%;
+}
+
+
+/* ygfyf */
+
+.footer {
+    display: grid;
+    place-items: center;
+    padding: 20px;
+    color: #000;
+    /* margin-top: 233px; */
+    border: 2px solid black;
+}
+
+.footer h2 {
+    font-size: 1.5rem;
+    margin-bottom: 1.6rem;
+    color: var(--text-color)
+}
+
+.bxl-twitter:hover {
+    color: #1877f2;
+}
+
+.bxl-instagram:hover {
+    color: #fa7e1e;
+}
+
+.bxl-youtube:hover {
+    color: red;
+}
+
+.footer-social a i {
+    color: rgb(10, 26, 208);
+    font-size: 25px;
+    margin-left: 10px;
+    text-align: center;
+    line-height: 40px;
+    /* background-color: #160202; */
+    border-radius: 50%;
+    width: 40px;
+    height: 40px;
+}
+
+.copyright {
+    /* background: #033a80; */
+    text-align: center;
+    color: #170303;
+}
+
+.copyright a {
+    color: #22cf91;
+}
+
+#menu-icon {
+    font-size: 24px;
+    cursor: pointer;
+    z-index: 10001;
+    display: none;
+}

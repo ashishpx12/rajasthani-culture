@@ -1,0 +1,358 @@
+                    * {
+                        margin: 0;
+                        padding: 0;
+                    }
+                    
+                    .logo {
+                        display: inline-flex;
+                        margin-top: 23px;
+                        font-family: 'math';
+                    }
+                    
+                    .logo p {
+                        font-size: 35px;
+                    }
+                    
+                    .span1 {
+                        color: rgb(237, 51, 51);
+                        font-size: 35px;
+                    }
+                    
+                    .nav-links {
+                        display: inline-flex;
+                        float: right;
+                        font-size: 1.8rem;
+                    }
+                    
+                    .nav-links li {
+                        list-style: none;
+                        margin-right: 30px;
+                        margin-top: 29px;
+                    }
+                    
+                    .nav-links li a {
+                        text-decoration: none;
+                        color: black;
+                    }
+                    
+                    hr {
+                        margin-top: 15px;
+                    }
+                    
+                    .nav-links li a:hover {
+                        color: purple;
+                        text-decoration: underline;
+                        border: 2px solid purple;
+                        border-radius: 5px;
+                    }
+                    
+                    .footer {
+                        display: grid;
+                        place-items: center;
+                        padding: 20px;
+                        color: #000;
+                        /* margin-top: 233px; */
+                        border: 2px solid black;
+                    }
+                    
+                    .footer h2 {
+                        font-size: 1.5rem;
+                        margin-bottom: 1.6rem;
+                        color: var(--text-color)
+                    }
+                    
+                    .bxl-twitter:hover {
+                        color: #1877f2;
+                    }
+                    
+                    .bxl-instagram:hover {
+                        color: #fa7e1e;
+                    }
+                    
+                    .bxl-youtube:hover {
+                        color: red;
+                    }
+                    
+                    .footer-social a i {
+                        color: rgb(10, 26, 208);
+                        font-size: 25px;
+                        margin-left: 10px;
+                        text-align: center;
+                        line-height: 40px;
+                        /* background-color: #160202; */
+                        border-radius: 50%;
+                        width: 40px;
+                        height: 40px;
+                    }
+                    
+                    .copyright {
+                        /* background: #033a80; */
+                        text-align: center;
+                        color: #170303;
+                    }
+                    
+                    .copyright a {
+                        color: #22cf91;
+                    }
+                    
+                    .ph1 {
+                        text-align: left;
+                        margin-top: 2%;
+                        font-size: 2.5rem;
+                        /* text-decoration: underline; */
+                    }
+                    
+                    .pagri {
+                        /* border: 3px solid black; */
+                        display: inline-table;
+                        margin-left: 0;
+                        display: flex;
+                        margin-top: 27px;
+                    }
+                    
+                    .pagri img {
+                        margin-top: 23px;
+                        animation: hero 1s ease 1s 1 normal both;
+                        transform: translateX(-130px);
+                        margin-left: 13%;
+                        height: 350px;
+                        padding-right: 5%;
+                    }
+                    
+                    @keyframes hero {
+                        form {
+                            transform: translateX(300px);
+                        }
+                        to {
+                            transform: translateX(0);
+                        }
+                    }
+                    
+                    .para1 {
+                        width: 70%;
+                        float: right;
+                        margin-right: 10%;
+                        font-size: 1.4rem;
+                        opacity: 0;
+                        font-family: serif;
+                        animation: reveal 0.5s forwards 0s;
+                    }
+                    
+                    .para1:hover {
+                        font-size: 1.5rem;
+                    }
+                    
+                    @keyframes reveal {
+                        from {
+                            transform: translateY(20px);
+                        }
+                        to {
+                            opacity: 1;
+                            transform: none;
+                        }
+                    }
+                    /* second */
+                    
+                    .box2 {
+                        margin-top: 50px;
+                    }
+                    
+                    .ph2 {
+                        text-align: right;
+                        margin-top: 2%;
+                        font-size: 2.5rem;
+                        margin-right: 10%;
+                        /* text-decoration: underline; */
+                    }
+                    
+                    .angarkha {
+                        /* border: 3px solid black; */
+                        display: inline-table;
+                        margin-left: 0;
+                        display: flex;
+                        margin-top: 27px;
+                    }
+                    
+                    .angarkha img {
+                        margin-top: 23px;
+                        animation: hero2 1s ease 1s 1 normal both;
+                        transform: translateX(130px);
+                        margin-left: 13%;
+                        height: 350px;
+                        padding-right: 5%;
+                    }
+                    
+                    @keyframes hero {
+                        form {
+                            transform: translateX(-300px);
+                        }
+                        to {
+                            transform: translateX(0);
+                        }
+                    }
+                    
+                    .para2 {
+                        width: 50%;
+                        float: left;
+                        margin-left: 10%;
+                        font-size: 1.4rem;
+                        opacity: 0;
+                        font-family: serif;
+                        animation: reveal 0.5s forwards 0s;
+                    }
+                    
+                    .para2:hover {
+                        font-size: 1.5rem;
+                    }
+                    
+                    @keyframes reveal {
+                        from {
+                            transform: translateY(20px);
+                        }
+                        to {
+                            opacity: 1;
+                            transform: none;
+                        }
+                    }
+                    /* }start 3red */
+                    
+                    .box4 {
+                        margin-top: 50px;
+                    }
+                    
+                    .bh4 {
+                        text-align: right;
+                        margin-top: 2%;
+                        font-size: 2.5rem;
+                        margin-right: 10%;
+                        /* text-decoration: underline; */
+                    }
+                    
+                    .bandhgala {
+                        /* border: 3px solid black; */
+                        display: inline-table;
+                        margin-left: 0;
+                        display: flex;
+                        margin-top: 27px;
+                    }
+                    
+                    .bandhgala img {
+                        margin-top: 23px;
+                        animation: hero2 1s ease 1s 1 normal both;
+                        transform: translateX(130px);
+                        margin-left: 13%;
+                        height: 350px;
+                        padding-right: 5%;
+                    }
+                    
+                    @keyframes hero {
+                        form {
+                            transform: translateX(-300px);
+                        }
+                        to {
+                            transform: translateX(0);
+                        }
+                    }
+                    
+                    .para4 {
+                        width: 50%;
+                        float: left;
+                        margin-left: 10%;
+                        font-size: 1.4rem;
+                        opacity: 0;
+                        font-family: serif;
+                        animation: reveal 0.5s forwards 0s;
+                    }
+                    
+                    .para4:hover {
+                        font-size: 1.5rem;
+                    }
+                    
+                    @keyframes reveal {
+                        from {
+                            transform: translateY(20px);
+                        }
+                        to {
+                            opacity: 1;
+                            transform: none;
+                        }
+                    }
+                    /* 4th */
+                    
+                    .ah5 {
+                        text-align: left;
+                        margin-top: 2%;
+                        font-size: 2.5rem;
+                        /* text-decoration: underline; */
+                    }
+                    
+                    .achkan {
+                        /* border: 3px solid black; */
+                        display: inline-table;
+                        margin-left: 0;
+                        display: flex;
+                        margin-top: 27px;
+                    }
+                    
+                    .achkan img {
+                        margin-top: 23px;
+                        animation: hero 1s ease 1s 1 normal both;
+                        transform: translateX(-130px);
+                        margin-left: 13%;
+                        height: 350px;
+                        padding-right: 5%;
+                    }
+                    
+                    @keyframes hero {
+                        form {
+                            transform: translateX(300px);
+                        }
+                        to {
+                            transform: translateX(0);
+                        }
+                    }
+                    
+                    .para5 {
+                        width: 70%;
+                        float: right;
+                        margin-right: 10%;
+                        font-size: 1.4rem;
+                        opacity: 0;
+                        font-family: serif;
+                        animation: reveal 0.5s forwards 0s;
+                    }
+                    
+                    .para5:hover {
+                        font-size: 1.5rem;
+                    }
+                    
+                    @keyframes reveal {
+                        from {
+                            transform: translateY(20px);
+                        }
+                        to {
+                            opacity: 1;
+                            transform: none;
+                        }
+                    }
+                    
+                    .safa {
+                        margin-top: 100px;
+                    }
+                    
+                    .angarkha2 img {
+                        margin-top: 23px;
+                        animation: hero2 1s ease 1s 1 normal both;
+                        transform: translateX(130px);
+                        margin-left: 13%;
+                        height: 350px;
+                        padding-right: 0px;
+                    }
+                    
+                    .angarkha2 {
+                        /* border: 3px solid black; */
+                        display: inline-table;
+                        margin-left: 0;
+                        display: flex;
+                        margin-top: 27px;
+                    }

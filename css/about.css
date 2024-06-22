@@ -1,0 +1,222 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+.logo {
+    display: inline-flex;
+    margin-top: 23px;
+    font-family: 'math';
+}
+
+.logo p {
+    font-size: 35px;
+}
+
+.span1 {
+    color: rgb(237, 51, 51);
+    font-size: 35px;
+}
+
+.nav-links {
+    display: inline-flex;
+    float: right;
+    font-size: 1.8rem;
+}
+
+.nav-links li {
+    list-style: none;
+    margin-right: 30px;
+    margin-top: 29px;
+}
+
+.nav-links li a {
+    text-decoration: none;
+    color: black;
+}
+
+.hr {
+    margin-top: 15px;
+}
+
+.nav-links li a:hover {
+    color: purple;
+    text-decoration: underline;
+    border: 2px solid purple;
+    border-radius: 5px;
+}
+
+.abth1 {
+    text-align: center;
+    margin-top: 2%;
+    font-size: 2.5rem;
+    text-decoration: underline;
+}
+
+.raj1 {
+    /* border: 3px solid black; */
+    display: inline-table;
+    margin-left: 7%;
+    display: flex;
+    margin-top: 27px;
+}
+
+.raj1 img {
+    border: 3px solid black;
+    border-radius: 21px 3px 3px 18px;
+    margin-top: 23px;
+    animation: hero 1s ease 1s 1 normal both;
+    transform: translateX(-130px);
+    margin-left: 13%;
+}
+
+@keyframes hero {
+    form {
+        transform: translateX(300px);
+    }
+    to {
+        transform: translateX(0);
+    }
+}
+
+.para {
+    width: 50%;
+    float: right;
+    margin-left: 12%;
+    font-size: 1.4rem;
+    opacity: 0;
+    font-family: serif;
+    animation: reveal 0.5s forwards 0s;
+}
+
+.para:hover {
+    font-size: 1.5rem;
+}
+
+@keyframes reveal {
+    from {
+        transform: translateY(20px);
+    }
+    to {
+        opacity: 1;
+        transform: none;
+    }
+}
+
+
+/* second part */
+
+.body2 {
+    margin-top: 100px;
+}
+
+.abth2 {
+    text-align: center;
+    margin-top: 2%;
+    font-size: 2.5rem;
+    text-decoration: underline;
+}
+
+.raj2 {
+    /* border: 3px solid black; */
+    display: inline-table;
+    margin-right: 7%;
+    display: flex;
+    margin-top: 0px;
+    margin-top: 23px;
+}
+
+.raj2 img {
+    border: 0px solid black;
+    border-radius: 3px 21px 18px 3px;
+    margin-top: 23px;
+    height: 300px;
+    animation: hero2 5s ease 1s 2 normal both;
+    transform: translateX(130px);
+    margin-right: 13%;
+}
+
+@keyframes hero2 {
+    form {
+        transform: translateX(-300px);
+    }
+    to {
+        transform: translateX(0);
+        padding-left: 5%;
+    }
+}
+
+.para2 {
+    width: 50%;
+    float: left;
+    margin-left: 12%;
+    font-size: 1.4rem;
+    opacity: 0;
+    font-family: serif;
+    animation: reveal2 1s forwards 0s;
+    margin-top: 23px;
+}
+
+.para2:hover {
+    font-size: 1.5rem;
+}
+
+@keyframes reveal2 {
+    from {
+        transform: translateY(20px);
+    }
+    to {
+        opacity: 1;
+        transform: none;
+    }
+}
+
+.footer {
+    display: grid;
+    place-items: center;
+    padding: 20px;
+    color: #000;
+    margin-top: 175px;
+    border: 2px solid black;
+}
+
+.footer h2 {
+    font-size: 1.5rem;
+    margin-bottom: 1.6rem;
+    color: var(--text-color)
+}
+
+.bxl-twitter:hover {
+    color: #1877f2;
+}
+
+.bxl-instagram:hover {
+    color: #fa7e1e;
+}
+
+.bxl-youtube:hover {
+    color: red;
+}
+
+.footer-social a i {
+    color: rgb(10, 26, 208);
+    font-size: 25px;
+    margin-left: 10px;
+    text-align: center;
+    line-height: 40px;
+    /* background-color: #160202; */
+    border-radius: 50%;
+    width: 40px;
+    height: 40px;
+}
+
+.copyright {
+    padding: 20px;
+    /* background: #033a80; */
+    text-align: center;
+    color: #170303;
+}
+
+.copyright a {
+    color: #22cf91;
+}

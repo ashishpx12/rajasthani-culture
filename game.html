@@ -1,0 +1,196 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <!--  *****   Link To Custom CSS Style Sheet   *****  -->
+    <link rel="stylesheet" type="text/css" href="./css/game.css">
+
+    <!--  *****   Link To Font Awsome Icons   *****  -->
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/boxicons@latest/css/boxicons.min.css">
+
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.1.1/css/all.min.css" />
+
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Rajasthani games </title>
+</head>
+
+<body>
+
+    <nav class="nav ">
+        <div class="logo ">
+            <p>Rajasthani <span class="span1 ">Culture</span></p>
+        </div>
+        <ul class="nav-links links ">
+            <li>
+                <a href="index.html">Home</a>
+            </li>
+            <li>
+                <a href="about.html">About</a>
+            </li>
+            <li>
+                <a href="mdress.html">dresses</a>
+            </li>
+
+            <li>
+                <a href="jewellery.html">Jewellery</a>
+            </li>
+            <li>
+                <a href="game.html">Rajasthani Games</a>
+            </li>
+        </ul>
+    </nav>
+    <hr>
+    <section class="portfolio">
+
+        <header class="section-head">
+            <h1>About Some Rajasthani Games</h1>
+        </header>
+
+
+
+
+        <main class="mainContainer">
+
+            <!--  *****  Buttons Section Starts  *****  -->
+
+            <!--  *****  Buttons Section Ends  *****  -->
+
+            <!--  *****  Gallery Section Starts  *****  -->
+            <div class="gallery">
+
+                <!--  *****  Card 1 Starts  *****  -->
+                <div class="item design">
+                    <img src="./images/gilli-danda.jfif">
+                    <div class="overlay">
+                        <a href="1game.html">
+                            More info.
+                        </a>
+                    </div>
+                </div>
+                <!--  *****  Card 1 Ends  *****  -->
+
+                <!--  *****  Card 2 Starts  *****  -->
+                <div class="item design">
+                    <img src="./images/kabbadi.webp">
+                    <div class="overlay">
+                        <a href="2game.html">
+                            More info.
+                        </a>
+                    </div>
+                </div>
+                <!--  *****  Card 2 Ends  *****  -->
+
+                <!--  *****  Card 3 Starts  *****  -->
+                <div class="item design">
+                    <img src="./images/pachishi.jfif">
+                    <div class="overlay">
+                        <a href="3game.html">
+                            More info.
+                        </a>
+                    </div>
+                </div>
+                <!--  *****  Card 3 Ends  *****  -->
+
+                <!--  *****  Card 4 Starts  *****  -->
+                <div class="item design">
+                    <img src="./images/langdi.jfif">
+                    <div class="overlay">
+                        <a href="4game.html">
+                            More info.
+                        </a>
+                    </div>
+                </div>
+                <!--  *****  Card 4 Ends  *****  -->
+
+                <!--  *****  Card 5 Starts  *****  -->
+                <div class="item design">
+                    <img src="./images/satoliya.jfif">
+                    <div class="overlay">
+                        <a href="5game.html">
+                            More info.
+                        </a>
+                    </div>
+                </div>
+                <!--  *****  Card 5 Ends  *****  -->
+
+                <!--  *****  Card 6 Starts  *****  -->
+                <div class="item design">
+                    <img src="./images/teer.jfif">
+                    <div class="overlay">
+                        <a href="6game.html">
+                            More info.
+                        </a>
+                    </div>
+                </div>
+                <div class="item design">
+                    <img src="./images/asthama chama.jfif">
+                    <div class="overlay">
+                        <a href="7game.html">
+                            More info.
+                        </a>
+                    </div>
+                </div>
+                <div class="item design">
+                    <img src="./images/lattu.jfif">
+                    <div class="overlay">
+                        <a href="8game.html">
+                            More info.
+                        </a>
+                    </div>
+                </div>
+                <div class="item design">
+                    <img src="./images/kancha.jfif">
+                    <div class="overlay">
+                        <a href="9game.html">
+                            More info.
+                        </a>
+                    </div>
+                </div>
+
+                <!--  *****  Gallery Section Ends  *****  -->
+
+        </main>
+
+    </section>
+
+
+    <div class="footer ">
+        <h2>Follow Us</h2>
+        <div class="footer-social ">
+            <a target="_blank " href="https://twitter.com/ashishpx12?t=oUYjOCHlmtalbNbA&s=09 "><i class='bx bxl-twitter'></i></a>
+            <a target="_blank " href=" https://instagram.com/ashishpx12?igshid=MzRloDBINWFIZA=="><i class='bx bxl-instagram'></i></a>
+            <a target=" _blank " href="https://www.youtube.com/@WebprojGuru/ "><i class='bx bxl-youtube '></i></a>
+        </div>
+        <div class="copyright ">
+            &#169; Rajasthani <span style="font-size:large;" class="span1">Culture</span>| All Right Reserved.</p>
+        </div>
+
+    </div>
+
+
+    <!--   *****   JQuery Link   *****   -->
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.6.3/jquery.min.js"></script>
+
+    <!--   *****   Isotope Filter Link   *****  -->
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery.isotope/3.0.6/isotope.pkgd.min.js"></script>
+
+    <script type="text/javascript">
+        var $galleryContainer = $('.gallery').isotope({
+            itemSelector: '.item',
+            layoutMode: 'fitRows'
+        })
+
+        $('.button-group .button').on('click', function() {
+            $('.button-group .button').removeClass('active');
+            $(this).addClass('active');
+
+            var value = $(this).attr('data-filter');
+            $galleryContainer.isotope({
+                filter: value
+            })
+        })
+    </script>
+
+</body>
+
+</html>
